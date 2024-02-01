@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/contactsScreen">
+
+    <fragment
+        android:id="@+id/contactsScreen"
+        android:name="com.example.onlinecontact.presentation.ui.screen.ContactsScreen"
+        android:label="ContactsScreen" />
+</navigation>
